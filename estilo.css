@@ -1,6 +1,7 @@
 #cabecalho{
 	box-sizing: padding-box;
 	background-color: #6175f0;
+	border-width: 0px;
 	color: white;
 	margin:0;
 	font-family: "Kaushan Script";
@@ -11,7 +12,7 @@
 	background-color: #f8cef7;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #ff56fb;	
+	border-color: #ffg56fb;	
 	text-align:center;
 }
 #musica{
