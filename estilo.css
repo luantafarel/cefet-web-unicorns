@@ -1,23 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 #cabecalho{
 	box-sizing: padding-box;
 	background-color: #6175f0;
 	border-width: 0px;
 	color: white;
 	margin:0;
-	font-family: "Kaushan Script";
+	font-family: "Kaushan Script", cursive;
+	font-size: 36px;
 }
 #hoje{
 	float: right;
 	width: 405px;
-	background-color: #f8cef7;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #ffg56fb;	
+	margin-right: 25px;
+	border: 1px solid #ff56fb;
+	background-color:#f8cef7;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 	text-align:center;
 }
 #musica{
-	width: 405px;
-	
+	clear: left;
+	float: left;
+	padding-left:12px;
 	
 }
 body{
@@ -25,10 +31,47 @@ body{
 	
 }
 #imagemprincipal{
-	width: 310px;
+	float: left;
+	max-width:310px;
+	width: auto;
+	height: auto;
 }
 #verdade{
-	float: right;
-	font-family: "Times New Roman";
+	float: left;
+	font-family: arial;
 	font-size: 14px;
+	padding-left:10px;
+}
+h1{
+	border: 1px solid #6175f0;
+	background-color: #6175f0;
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	color: white;
+	padding-left: 34px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+h2{
+	font-family: 'Times New Roman';
+	font-size: 24px;
+}
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#destacado{
+	clear:left;
+	color: #004a79;
+	background-color: #c4caf3;
+	padding-left: 12px;
+}
+p.estrofe{
+	padding-left: 34px;
+}
+img.imgs{
+	max-height: 112px;
+	max-width: 112px;
+	width:auto;
+	height:auto;
 }
